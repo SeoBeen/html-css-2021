@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- 검색엔진에 도움을 주기 위해서 lang 설정 
+    주된 언어가 무엇인지 알려줌  -->
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <!-- IE를 위한 태그 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title 옆에 작은 아이콘 넣기 -->
+        <link rel="shortcut icon"
+        sizes = "16x16 32x32 64x64" 
+        href="https://nomadcoders.co/m.png">
+        <title>Home - My First website.</title>
+        <!-- 메타 태그 content, name -->
+        <!-- description 은 검색엔진이 검색할때 사용한다 -->
+        <meta name="description" content="This is my website"/>
+        <!-- og:img는 카카오톡에 공유 될때 보여지는 이미지. -->
+        <meta property="og:img">
+    </head>
+    <!-- id는 body안의 어떤 태그든 넣을 수 있다. -->
+    <body>
+        <form action="">
+            <!-- label의 for와 input의 id가 일치해야 연결이 된다. -->
+            <label for="profile">Profile Photo</label>
+            <input type="file" id="profile">
+            <label for="website">website</label>
+            <input id="website" type="url">
+            <input type="color" name="" id="">
+            <input required placeholder="Name" type="text"/>
+            <input required placeholder="Last Name" disabled type="text"/>
+            <input required placeholder="Username" type="text"/>
+            <input required placeholder="Password" type="password"/>
+            <input type="submit" value="Create Account">
+        </form>
+        <!-- semantic 태그 ==> 의미가 있는 태그 ex)header,main,footer 
+            non-semantic 태그 ==> 의미가 없음 ex) div,span -->
+        <header>
+            <h1>Header</h1>
+        </header>
+        <main>
+            <p>main</p>
+        </main>
+        <footer>
+            &copy; sb
+        </footer>
+
+        <!-- div is divisiton 분할,구분,경계선 -->
+        <div></div>
+    </body>
+</html>
