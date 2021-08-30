@@ -1,2 +1,3 @@
-# html-css-2021
-study front-end myself
+# Html Css 2021 Update
+
+HTML, CSS got so much better!
